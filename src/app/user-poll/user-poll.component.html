@@ -1,10 +1,12 @@
 <div class="row">
-  <div class="col-3">
-    <h1>Some poll question</h1>
-    <div class="progress">
-      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" [style.width.%]="value"></div>
-    </div><br>
-    <button (click)="value = 90" class="btn btn-success btn-lg" [style.marginRight.px]="10">YES</button>
-    <button (click)="value = 60" class="btn btn-danger btn-lg">NO</button>
+  <div class="col-4">
+    <div class="user-poll">
+      <h2>Some poll question</h2>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" [style.width.%]="value"></div>
+      </div><br>
+      <button (click)="value = 90" class="btn btn-success btn-lg" [style.marginRight.px]="10">YES</button>
+      <button (click)="value = 60" class="btn btn-danger btn-lg">NO</button>
+    </div>
   </div>
 </div>

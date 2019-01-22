@@ -1,0 +1,11 @@
+<h3>ngBootstrap pagination example</h3>
+<ngb-pagination *ngIf="!hidePagination" [collectionSize]="70" [(page)]="page" aria-label="Default pagination"></ngb-pagination>
+<button (click)="hidePagination = !hidePagination">Toggle poll component</button><br>
+
+<hr>
+
+<h3>user-poll webcomponent inside webcomponent-page</h3>
+<p>user-poll uses ViewEncapsulation.None and therefore can use styles from parent webcomponent webcomponent-page</p>
+<user-poll *ngIf="!hidePoll"></user-poll><br>
+<button (click)="hidePoll = !hidePoll">Toggle poll component</button><br>
+#destroying object wil throw an error (ZoneJS) - only in local development
