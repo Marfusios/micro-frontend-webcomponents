@@ -2,6 +2,7 @@
 
 # compiled output
 /dist
+/deployment
 /tmp
 /out-tsc
 

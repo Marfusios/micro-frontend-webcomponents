@@ -1,27 +1,15 @@
-# MicroFrontendWebcomponents
+![logo](logo.png)
+# WEBCOMPONENTS - shared micro frontend [![Build Status](https://travis-ci.com/Marfusios/micro-frontend-webcomponents.svg?branch=master)](https://travis-ci.com/Marfusios/micro-frontend-webcomponents) [![demo link](https://img.shields.io/badge/demo-link-blue.svg)](http://mkotas.cz/micro-frontend-gateway)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+This is example of the shared webcomponents.
+A primary application (gateway to the whole system) can be found here: [github.com/marfusios/micro-frontend-gateway](https://github.com/Marfusios/micro-frontend-gateway)
 
-## Development server
+Deployed at: [mkotas.cz/micro-frontend-alpha](http://mkotas.cz/micro-frontend-webcomponents)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Usage
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* local development
+    * `npm start`
+* local & remote deployment
+    * `npm build-deploy`
+    * copy content of 'deployment' directory into web server
